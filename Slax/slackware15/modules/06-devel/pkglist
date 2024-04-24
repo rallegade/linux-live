@@ -3,6 +3,7 @@ slackware:gcc-g[+][+]
 slackware:glibc
 slackware:make
 slackware:flex
+slackware:binutils
 slackware:guile
 slackware:gc
 slackware:nasm

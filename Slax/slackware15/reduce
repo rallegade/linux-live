@@ -101,7 +101,6 @@ rm etc/termcap-BSD
 rm -Rf usr/lib{64,}/python2.7/site-packages
 rm -Rf usr/lib{64,}/gdbus-2.0/codegen/*
 rm -Rf usr/share/icons/Oxygen_*
-rm -Rf usr/share/icons/HighContrast
 rm -Rf usr/share/gir-*
 rm -Rf usr/share/apps/kdm/pics/*
 rm -Rf usr/share/apps/desktoptheme/oxygen
@@ -131,10 +130,6 @@ rm -f usr/share/applications/wpa_gui.desktop
 rm -f usr/share/applications/xterm.desktop
 rm -f usr/share/applications/zlxtask.desktop
 rm -f usr/share/applications/SciTE.desktop
-
-# move Tango icons to hicolor
-cp -aRf usr/share/icons/Tango/* usr/share/icons/hicolor
-rm -Rf usr/share/icons/Tango
 
 # most terminfo is not needed.
 rm -Rf usr/share/terminfo/{1,2,3,4,5,6,7,8,9,A,E,L,M,N,P,Q,X,a,b,c,d,e,f,g,h,i,j,k,m,o,p,q,r,s,t,w,z}

@@ -15,9 +15,6 @@ slackware:cairo
 slackware:gdk-pixbuf2
 slax:slax-gtk-utils
 
-# this is real, wtf
-slackware:binutils
-
 slackware:pamixer
 slackware:boost
 
@@ -37,7 +34,6 @@ slackware:startup-notification
 slackware:xfconf
 slackware:exo
 slackware:hicolor-icon-theme
-slackware:tango-icon-theme
 slackware:xfce4-panel
 
 slax:imlib2
