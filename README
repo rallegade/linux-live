@@ -1,6 +1,21 @@
 Linux Live Kit
 ==============
 
+Additions to the original version.
+
+- Fixed where the vmlinuz was placed
+- Made a script for automatic clean and build process
+- Added UEFI from another commit
+
+Things still missing
+- Make the script work on any generic environment (paths are hardcoded atm to my environment)
+- Make the script for updating initramfs also move the files into the right directory after (atm this is a manual process)
+
+Notes
+- Before trying to run the autobuild.sh, run the following command to install necessary tools for it to work
+sudo apt install xorriso syslinux-utils -y
+
+
 Use this set of scripts to turn your existing preinstalled Linux
 distribution into a Live Kit (formely known as Live CD).
 Make sure to extract and use it on a posix-compatible filesystem,
